@@ -1,0 +1,128 @@
+
+@font-face {
+	font-family: "Intro";
+	src: url("./assets/fonts/IntroDemoCond-LightCAPS.otf");
+	font-weight: 400;
+	font-style: normal;
+}
+
+h1 {
+    font-family: "Intro";
+    font-weight: bold;
+    margin-top:2vh ;
+    margin-left: 15vw;
+    margin-bottom: 1vh;
+}
+
+h2 {
+    margin: 0;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(95, 50, 138);
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    color: white;
+    border: 0;
+    padding: 10px;
+    
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5vh 5vw 3vh 5vw;
+}
+
+.header_logo {
+    width: 149px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.options_block {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 25vw 25vw 25vw ;
+    grid-template-rows: 1fr 0.6fr;
+    justify-content: center;
+}
+
+.options-card {
+    width: 20vw;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.options-card_border {
+    border: 1px solid rgb(236,97,91);
+}
+
+.options-card_border_right {
+    border: 1px solid rgb(236,97,91);
+    position: relative;
+    right: 10px;
+}
+
+.options-card_img {
+    height: 30vh;
+    width: 20vw;
+    
+}
+
+.options-card_img_color {
+    background-color: rgb(236,97,91);
+    height: 25vh;
+    width: 20vw;
+    margin-bottom: 5vh;
+}
+
+.options-card_form {
+    background-color: rgb(236,97,91);
+    display: flex;
+    width: 18vw;
+    flex-direction: column;
+    justify-content: start;
+    padding: 10px;
+    gap: 10px;
+}
+
+.options-card_form_title {
+    color: white;
+    font-family: "Intro";
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.options-card_form_mail {
+    padding: 10px;
+}
+
+.footer ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    padding-left: 126px;
+    gap: 34px;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+a {
+    text-decoration: none; 
+    color: #000000;
+}
+
